@@ -30,7 +30,7 @@ import org.robolectric.annotation.LooperMode
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [Build.VERSION_CODES.R])
 @LooperMode(LooperMode.Mode.PAUSED)
-class TestScrolling {
+class TestUnderModule {
     @get:Rule
     val composeTestRule = createComposeRule()
 
